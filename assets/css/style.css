@@ -7200,11 +7200,15 @@ input[type="radio"]+label::after {
 	color: var(--secondary-color);
 }
 
-.top-menu-link {
+.top-menu-link, .footer-menu-link {
 	color: white;
 }
 
 .top-menu-link:hover {
+	color: var(--secondary-color);
+}
+
+.footer-menu-link:hover {
 	color: var(--secondary-color);
 }
 
