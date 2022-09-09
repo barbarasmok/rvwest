@@ -4947,16 +4947,16 @@ address,
 	-ms-flex-pack: center;
 	justify-content: center;
 	font-family: var(--secondary-font);
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 2.1rem;
 	font-weight: var(--p-bold);
-	letter-spacing: 0.1rem;
+	letter-spacing: 0rem;
 	color: #FFFFFF;
-	padding: 1.4rem 4rem 1.3rem;
-	border-width: 0.2rem;
-	border-style: solid;
-	border-radius: 0;
-	z-index: 1;
+	padding: 10px 20px;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-radius: 24px;
+    z-index: 1;
 }
 
 .btn::before {
@@ -4984,20 +4984,20 @@ address,
 
 .btn.btn-primary:focus,
 .btn.btn-primary:active {
-	background: var(--primary-color);
-	border-color: var(--primary-color);
+	background: var(--secondary-color);
+	border-color: var(--secondary-color);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #fff;
 }
 
 .btn.btn-secondary {
-	background: var(--grey-mid);
-	border-color: var(--grey-mid);
+	background: var(--secondary-color);
+	border-color: var(--secondary-color);
 }
 
 .btn.btn-secondary.btn-nofill {
-	color: var(--grey-dark-four);
+	color: var(--secondary-color);
 }
 
 .btn.btn-nofill {
@@ -7177,6 +7177,22 @@ input[type="radio"]+label::after {
 	color: var(--grey-dark-four);
 	font-weight: var(--p-light);
 	margin: 0;
+}
+.date::before{
+	font-weight: 400;
+	content: "\f073";
+	color: #290862;
+	background-color: none;
+	font-size: 10rem;
+	top: -0.1rem;
+	left: -2rem;
+	font-family: var(--font-awesome);
+	font-size: 1.5rem;
+	line-height: inherit;
+	margin-left: 0.5rem;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
 }
 
 .readMore::after {
@@ -10152,7 +10168,7 @@ ul.gallery img {
 }
 
 .footer-logo {
-	max-height: 3rem;
+	max-height: 9rem;
 }
 
 .footer-social-share {
