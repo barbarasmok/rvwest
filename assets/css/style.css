@@ -3749,7 +3749,7 @@ p {
 ul,
 ol {
 	font-family: var(--secondary-font);
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	padding-left: 3rem;
 	margin-bottom: 0;
@@ -4743,7 +4743,7 @@ h6,
 
 p {
 	font-family: var(--secondary-font);
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	color: var(--grey-dark-two);
 }
@@ -9108,10 +9108,10 @@ figcaption {
 
 
 .blockquote {
-	font-size: 1.25rem;
-	border: 1px solid rgba(222, 226, 230, 0.54);
-	border-left: 0.5rem solid #3F70DF;
-	color: #6c757d;
+	font-size: 1.8rem;
+	border: none;
+	border-left: none;
+	color: #FD7E23;
 	font-family: var(--secondary-font);
 	font-style: italic;
 	line-height: 1.6;
@@ -9122,12 +9122,12 @@ figcaption {
 	margin-bottom: 3rem;
 	margin-top:2rem;
 	margin-left: 0;
-
+	background-color: #F8F9FA;
 }
 
 .blockquote:before {
 	font-size: 6.875rem;
-	color: #3F70DF;
+	color: #FD7E23;
 	content: "“";
 	font-family: var(--secondary-font);
 	font-size: 5.5rem;
@@ -9137,7 +9137,7 @@ figcaption {
 	max-width: 3.75rem;
 	position: absolute;
 	text-align: inherit;
-	top: 2rem;
+	top: 5rem;
 	width: 100%;
 }
 .blockquote:after {
@@ -9154,9 +9154,15 @@ figcaption {
 }
 .blockquote-footer:before {
 	content: "— ";
+	margin-left:30px;
 }
-
-
+.blockquote p {
+	color: #FD7E23;
+	font-size: 1.8rem;
+	line-height: 1.4;
+	margin-left:30px;
+	font-weight: 500;
+}
 
 
 /*
@@ -9530,6 +9536,7 @@ blockquote p::before,
 	font-size: 1.4rem;
 	color: #fff;
 	padding: 0.8rem 4rem 0.7rem;
+	border-radius: 25px;
 }
 
 .post-shares li a::before {
