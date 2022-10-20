@@ -7932,22 +7932,41 @@ input[type="radio"]+label::after {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	font-size: 3rem;
-	line-height: 4.2rem;
+	font-size:2rem;
+	line-height: 2.5rem;
 	color: #fff;
 	font-weight: var(--p-bold);
 	max-width: 18rem;
 }
 
+.banner .post-date span {
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+
 @media (max-width: 991px) {
 	.banner .post-date {
 		margin-bottom: 3rem;
+		font-size: 3rem;
+	}
+
+	.banner .post-date span {
+		font-size: 2rem;
+		line-height: 3rem;
 	}
 }
 
-.banner .post-date span {
-	font-size: 4.2rem;
-	line-height: 6rem;
+@media (max-width: 1400px) {
+	.banner .post-date {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	.banner .post-date span {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	
 }
 
 .banner .video-play-btn-wrapper {
