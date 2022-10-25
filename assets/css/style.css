@@ -7195,6 +7195,24 @@ input[type="radio"]+label::after {
 	margin-bottom: 20px;
 }
 
+.dateWhite::before{
+	font-weight: 400;
+	content: "\f073";
+	color: #FFFFFF;
+	background-color: none;
+	font-size: 10rem;
+	top: -0.1rem;
+	left: 0rem;
+	font-family: var(--font-awesome);
+	font-size: 1.5rem;
+	line-height: inherit;
+	margin-left: 0;
+	margin-right: 0.5rem;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
 .readMore::after {
 	font-weight: 400;
 	content: "\f138";
